@@ -1,0 +1,235 @@
+/**
+ *AzulFuerte3c.css *
+ * Copyright (c) 2000-2014 Dpto Web/Desarrollo 
+ * OCS a partir del tema lilac, Lilac theme.
+ */
+body {
+	background-color: #fff;
+	color: #595959;
+	font-family: Arial;
+	font-size: 12px;
+   line-height: 1.46em;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {background: transparent;text-decoration: underline;}
+a:active {text-decoration:none;}
+img{border: none;}
+#container{background-color: #fff;border: none;}
+#body ul, #bodyp ul {margin: 6px;padding: 0;}
+#body{background-color: #fff;border: none;min-height: 500px; }
+#body ul li, #bodyp ul li {list-style: none;margin: 6px 0 6px; padding: 0 0 0 6px;}
+#body #sidebar ul li{ list-style: none; margin: 0 auto; padding: 6px 8px;}
+#body #sidebar ul li:hover { background-color: #E6E6E6;}
+#body input.textField,input#sidebar-password,input.uploadField,input.button,
+select.selectMenu,textarea.textArea,label{
+    color: #595959;
+	 font-family: Arial;
+	 font-size: 12px;}
+input.button{background-color: #bfbfbf}
+#content form{color:#707070;font-size: 13px;line-height: 2em;}
+#content table{color:#707070;font-size: 13px;line-height: 1.5em;}
+#sidebar,#content{background-color: #fff;font-size: 12px;}
+#sidebar form,#sidebar table{padding-left: 6px;	margin-top: 18px;margin-bottom: 18px}
+/***** ESTRUCTURA *****/
+#container, #header, #footer{
+	margin:0px; 
+	padding:0px;
+	position: relative;
+	width: 100%;}
+#leftSidebar, #rightSidebar {
+    height: 100%;
+	 margin-top: 40px;
+	 position: relative;}
+#leftSidebar{
+    margin-left: 0;
+    margin-right: 6px;
+    padding: 18px 0px;
+	 width: 20%;}
+#rightSidebar{
+    margin-left: 6px;
+    margin-right: 0;
+    padding: 18px 0px;
+	 width: 21%;}
+#main{
+	margin: 45px auto 0px auto;
+	padding: 0;
+	position: static;
+	width: 57.7%;}
+#main #breadcrumb{
+   left: 0;
+   padding-left: 10px;
+   position: relative;
+   top: 2px;}
+#main #content{
+	padding: 0 6px;
+	position: relative;}
+#logoinfomed ul,#header #headerTitle, 
+#body,#bodyp,#footer #footerContent{	
+	margin:0 auto; 
+	padding:0px;
+	width: 960px;}
+#header{border: none;height: 90px;margin: 0 auto;padding:0px}
+#header h1{position: relative;}
+#headerTitle img{margin: 0 auto;position: absolute;right: 0;top: 3px;}
+/****** LOGO ******/
+div#logoinfomed {
+    background-color: #FFFFFF;
+	 background-image: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+	 position: relative;}
+div#logoinfomed ul {display: block;list-style: none outside none;}
+div#logoinfomed li {display: inline;float: right;list-style: none outside none;}
+div#logoinfomed li a {font-family: Arial;font-size: 12px;}
+div#logoinfomed li.imagenlogo a {padding-right: 5px;}
+div#logoinfomed li.entrar a, 
+div#logoinfomed li.salir a{font-weight:  normal;padding-right: 5px;}
+div#logoinfomed li.imagenlogo {display: inline;float: left;list-style: none outside none;}
+/*TABLA LISTIN common.css Y INFO DEL BODY **/
+#main table.listing {border-spacing:0pt;color: black;font-size:11px;}
+#main table.listing td {padding:0.2em;}
+#main table td span.disabled {color:black;}
+#main table.listing tr.heading td, 
+#main table.listing td.heading, 
+#main table.info td.heading {font-size:11px; margin: 0px; padding: 0px 0px 8px; text-transform: none;}
+table.data td.label {padding-right: 0;}
+/****/
+#sidebar div.block span.blockSubtitle{padding-left: 0px;font-weight: bold;}
+#sidebar input, #sidebar select{background-color:#fff;}  
+#sidebar div.block {
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+   font-size: 12px;
+   margin-bottom: 18px;
+	padding-bottom: 6px;}
+#sidebar #sidebarNavegarpor a,#sidebar #sidebarBuscar a{padding-left: 12px;margin-top: 18px;margin-bottom: 18px}
+#sidebar div.block span.blockTitle {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+   border-bottom: none;	 
+	color:#FFF;
+	font-family: Arial;
+	font-size: 13px;
+   font-weight: normal;
+   height: 30px;
+   line-height: 30px;
+   margin-bottom: 7px;
+   overflow: hidden;
+   padding: 2px 0 2px 0;
+   text-transform: uppercase;
+   text-align: center;}
+#sidebarSede img,#sidebarHabana img{margin: auto;padding: 0;width: 99%;}
+#sidebar #sidebarPreRegistro p{padding-left: 12px;}
+#sidebar #sidebarDevelopedBy.block,#sidebar #sidebarHelp.block,
+#sidebar #sidebarLanguageToggle.block{
+	background-color: #fff;
+	border: 1px solid #fff;
+	padding: 0px;
+	margin: 8px auto;
+	text-align: left;}
+#sidebar #sidebarDevelopedBy a,#sidebar #sidebarHelp a{text-transform: uppercase;}
+#sidebar #sidebarLanguageToggle span.blockTitle{display: none;}
+#sidebar #sidebarLanguageToggle form{ padding: 0;margin:0px;}
+#main{background-color: #FFF;border:none;	font-size: 12px;}
+#breadcrumb{
+	border: none;
+	color:#707070;
+	font-size: 11px;
+	height: 10px;
+	margin: 0 0 10px 0;
+	padding: 6px 0 0 12px;} 
+#breadcrumb a{font-family: Arial;font-size: 11px;color:#707070;}
+#main #content{border-top: none;font-family: Arial;font-size: 12px;line-height: 1.5em;}
+#main h2,#main h3,#main h4{font-family:Arial;margin:0px;}
+#main h2{font-size: 20px;padding: 24px 0 12px 10px;}
+#main h3{font-size: 16px;padding: 0 0 5px;}
+#main h4{font-size: 14px; font-weight: bold; padding: 5px 3px 10px;text-transform: uppercase;}
+#footer{background-color: #f7f7f7;border-top: 3px solid #bfbfbf;color: #595959;padding-bottom: 0;padding-top: 10px;}
+#footer div.debugStats {font-size:12px;}
+#footerContent div.debugStats a{font-size:12px;text-decoration: none;}
+#footerContent div.debugStats a:hover{text-decoration: underline;}
+/*NAVEGACION*/
+#main #navbar{
+   background-color: #f7f7f7;
+	height: 30px;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+   overflow:hidden;
+	top: 125px;
+	width: 100%;}
+#main #navbar ul.menu {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+   margin: 0 auto;
+   padding: 0;
+	position: relative;
+   width: 960px;}
+#main #navbar ul.menu li:first-child a {
+	background-image: url(home.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #FFF;
+	display: block;/***/
+   margin:0px;
+   padding:0px 38px;
+	text-indent: -99999px}
+#main #navbar ul.menu li:first-child a:hover {
+	background-image: url(home-color.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #f7f7f7;}
+#main #navbar ul.menu li {
+   display: inline;
+   float: left;/***/
+   margin: 0 auto;
+   padding:0;}
+#main #navbar ul.menu li a {
+	display: inline-block;
+	font-size: 13px;
+	letter-spacing: normal;
+   margin: 0 0px 0 -5px;
+	padding:0 24px;}
+#main #navbar ul.menu li a:hover {color:#FFF}
+/* PLANTILLA DE LOS TRABAJOS*/
+#body.pp{min-height: 500px;	width: 770px }
+#body.pp #main{ font-size: 12px; width: 70%;}
+#body.pp #main #navbar{top: -45px;}
+#body.pp #main #navbar ul.menu{	width: 780px;}
+#topBar{	height: 15px; padding:0px;}
+div.rtBlock a,span.rtSubtitle,#main h5,#main h6,a.rtAction, 
+em,select.selectMenu {font-family: Arial;font-size: 11px;}
+/*COLORES*/
+#header h1{color: #FFF}
+#header,#sidebar div.block span.blockTitle,
+#main #navbar ul.menu li:first-child a,
+#main #navbar ul.menu li a:hover {background-color: #01416f;}
+#main h2,#main h3,#main h4,#footerContent div.debugStats a,
+a:link,a:visited,a:hover,a:active,#footerContent div.debugStats a,
+#main #navbar ul.menu li:first-child a:hover{color: #01416f}	
+#main #navbar{border-bottom: 3px solid #01416f;}
+#main #navbar ul.menu li a{border-right: 1px solid #01416f;}
+#sidebar a:link {color:#595959;text-decoration:none;}
+#sidebar a:active {color:#595959;text-decoration:none;}
+#sidebar a:visited {color:#595959;text-decoration:none;}
+#sidebar a:hover {color:#595959;background:transparent;text-decoration:underline;}
+/************************************************************/
+/******** ACTIVAR CNDO SEAN SOLO 2 COLUMNAS ****************
+#leftSidebar{display: none;}
+#rightSidebar{
+margin: 0px;
+padding: 48px 0px 18px 6px;
+width: 24.2%;}
+#sidebar #sidebarLanguageToggle form{ top: 30px;}
+#main{padding-right: 6px;width: 74.3%;}
+#body #main #content {padding-left: 6px;}/**FIN**/
+#sidebar #rightSidebar div.block span.blockTitle{background-color: #01416f;color: #ffffff;}
+
+#sidebar div.block span.blockSubtitle, .block form, .block img, .block a, .block p {
+    padding-left: 0px;
+}
